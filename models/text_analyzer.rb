@@ -42,6 +42,6 @@ class TextAnalyzer
   end
 
   def most_used_letter_count
-  self.most_used_letter.values[0].to_s
-end
+    self.most_used_letter.values[0].to_s
+  end
 end
