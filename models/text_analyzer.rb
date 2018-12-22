@@ -41,9 +41,7 @@ class TextAnalyzer
     biggest
   end
 
-  def print_letter
-    self.most_used_letter.upcase
-  end
+
 
   def most_used_letter_count
     self.most_used_letter.values[0].to_s
