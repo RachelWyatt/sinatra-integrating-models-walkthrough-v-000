@@ -42,7 +42,7 @@ class TextAnalyzer
   end
 
   def print_letter
-    self.most_used_letter[:key].upcase
+    self.most_used_letter[:key]
   end
 
   def most_used_letter_count
